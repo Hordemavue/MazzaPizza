@@ -24,19 +24,48 @@ jobs:
         run: |
           pyinstaller --windowed \
                       --name MyPygameGame \
-                      --add-data "2.png:." \
-                      --add-data "4.png:." \
-                      --add-data "8.png:." \
-                      --add-data "16.png:." \
-                      --add-data "32.png:." \
-                      --add-data "64.png:." \
-                      --add-data "128.png:." \
-                      --add-data "256.png:." \
-                      --add-data "512.png:." \
-                      --add-data "1024.png:." \
-                      --add-data "2048.png:." \
-                      --add-data "4096.png:." \
-                      --add-data "8192.png:." \
+                      --add-data "v1_2.png:." \
+                      --add-data "v1_4.png:." \
+                      --add-data "v1_8.png:." \
+                      --add-data "v1_16.png:." \
+                      --add-data "v1_32.png:." \
+                      --add-data "v1_64.png:." \
+                      --add-data "v1_128.png:." \
+                      --add-data "v1_256.png:." \
+                      --add-data "v1_512.png:." \
+                      --add-data "v1_1024.png:." \
+                      --add-data "v1_2048.png:." \
+                      --add-data "v1_4096.png:." \
+                      --add-data "v1_8192.png:." \
+                      --add-data "v1_16384.png:." \
+                      --add-data "v2_2.png:." \
+                      --add-data "v2_4.png:." \
+                      --add-data "v2_8.png:." \
+                      --add-data "v2_16.png:." \
+                      --add-data "v2_32.png:." \
+                      --add-data "v2_64.png:." \
+                      --add-data "v2_128.png:." \
+                      --add-data "v2_256.png:." \
+                      --add-data "v2_512.png:." \
+                      --add-data "v2_1024.png:." \
+                      --add-data "v2_2048.png:." \
+                      --add-data "v2_4096.png:." \
+                      --add-data "v2_8192.png:." \
+                      --add-data "v2_16384.png:." \
+                      --add-data "v3_2.png:." \
+                      --add-data "v3_4.png:." \
+                      --add-data "v3_8.png:." \
+                      --add-data "v3_16.png:." \
+                      --add-data "v3_32.png:." \
+                      --add-data "v3_64.png:." \
+                      --add-data "v3_128.png:." \
+                      --add-data "v3_256.png:." \
+                      --add-data "v3_512.png:." \
+                      --add-data "v3_1024.png:." \
+                      --add-data "v3_2048.png:." \
+                      --add-data "v3_4096.png:." \
+                      --add-data "v3_8192.png:." \
+                      --add-data "v3_16384.png:." \
                       --add-data "pince.png:." \
                       --add-data "main.png:." \
                       main.py
